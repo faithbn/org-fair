@@ -5,3 +5,6 @@ cms.json
 .packages
 /build/
 /coverage/
+android/key.properties
+*.jks
+*.keystore

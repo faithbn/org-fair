@@ -1,6 +1,24 @@
-# org_fair
+# CICT Org Fair
 
-A new Flutter project.
+**Live app:** https://faithbn.github.io/org-fair/
+
+CICT Org Fair lets students browse organizations, view fair events, and check event updates from the CMS.
+
+## Run locally
+
+Copy `cms.example.json` to `cms.json`, fill in the Contentful values, then run:
+
+```powershell
+flutter run --dart-define-from-file=cms.json
+```
+
+`cms.json`, Android signing properties, and keystores are ignored by Git. Use a read-only Contentful token.
+
+## Build for the web
+
+```powershell
+flutter build web --release --dart-define-from-file=cms.json
+```
 
 ## Getting Started
 
